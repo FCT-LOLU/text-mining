@@ -1,7 +1,4 @@
-#the local max algorithm to get all the relevant expressions in a corpus of documents
-#input: a file
-#output: a list of relevant expressions
-def local_max_algorithm(corpuspath):
+def init_dict_multiwords_expression(corpuspath):
     #open the file
     with open(corpuspath, 'r') as corpus:
         #create a dictioionary of ngrams
@@ -11,7 +8,7 @@ def local_max_algorithm(corpuspath):
             #split the line into words
             words = line.split()
             #create a list of ngrams and get all the ngrams lenght 2 to 8
-            for i in range(1,8):
+            for i in range(1,9):
                 bysize = {}
                 for j in range(len(words)-i+1):
                     ngram = ' '.join(words[j:j+i])
@@ -23,21 +20,9 @@ def local_max_algorithm(corpuspath):
                         bysize[ngram]["MaxOmegaPlusSCP"] = 0
                         bysize[ngram]["MaxOmegaMinusSCP"] = 0
                     else:
-                        #increment the ngram value
+                        #increment the ngram freq value
                         bysize[ngram]["freq"] += 1
                 ngrams[i] = bysize
         
-        #print the ngrams
-        #print_dictio(ngrams, level=0)
+        return ngrams
 
-def print_dictio(dictio, level=0):
-    for cle, value in dictio.items():
-        if isinstance(value, dict):
-            print('\t' * level + str(cle) + ':')
-            print_dictio(value, level + 1)
-        else:
-            print('\t' * level + str(cle) + ': ' + str(value))
-
-
-#test
-#local_max_algorithm('test.txt')
