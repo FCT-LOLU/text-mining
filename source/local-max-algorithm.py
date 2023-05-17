@@ -16,20 +16,19 @@ def local_max_algorithm(corpuspath):
                 for j in range(len(words)-i+1):
                     ngram = ' '.join(words[j:j+i])
                     #if the ngram is not in the dictioionary, add it
-                    first = ngram[0]
-                    if first not in bysize:
-                        bysize[first]={}
-                        bysize[first][ngram] = 1
+                    if ngram not in bysize:
+                        bysize[ngram]={}
+                        bysize[ngram]["freq"] = 1
+                        bysize[ngram]["SCP"] = 0
+                        bysize[ngram]["MaxOmegaPlusSCP"] = 0
+                        bysize[ngram]["MaxOmegaMinusSCP"] = 0
                     else:
-                        if ngram not in bysize[first]:
-                            bysize[first][ngram] = 1
-                        else:
-                            #increment the ngram value
-                            bysize[first][ngram] += 1
+                        #increment the ngram value
+                        bysize[ngram]["freq"] += 1
                 ngrams[i] = bysize
-            
+        
         #print the ngrams
-        print_dictio(ngrams, level=0)
+        #print_dictio(ngrams, level=0)
 
 def print_dictio(dictio, level=0):
     for cle, value in dictio.items():
@@ -41,4 +40,4 @@ def print_dictio(dictio, level=0):
 
 
 #test
-local_max_algorithm('test.txt')
+#local_max_algorithm('test.txt')

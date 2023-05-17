@@ -4,8 +4,8 @@ def add_space_before_and_after_special_characters(file_path, characters_list):
             chaine = f.read()
             
         for cle in characters_list:
-            chaine = chaine.replace(cle, " "+cle+" ")
-        chaine.replace("  ", " ")
+            chaine = chaine.replace(cle, " ")
+        chaine = chaine.replace("  ", " ")
         chaine = chaine.lower()
         with open(file_path, "w") as f:
             f.write(chaine)
@@ -13,4 +13,4 @@ def add_space_before_and_after_special_characters(file_path, characters_list):
     except IOError:
         print("Erreur lors de la lecture ou de l'écriture du fichier.")
 
-add_space_before_and_after_special_characters("test.txt", [";", ",", ".", ":", "!", "?", "(", ")", "[", "]", "{", "}", "<", ">", "/", "\\", "|", "_", "+", "=", "*", "&", "^", "%", "$", "#", "@", "!", "`", "~", "'", "\"", " "])
+#add_space_before_and_after_special_characters("test.txt", [";", ",", ".", ":", "!", "?", "(", ")", "[", "]", "{", "}", "<", ">", "/", "\\", "|", "_", "+", "=", "*", "&", "^", "%", "$", "#", "@", "!", "`", "~", "'", "\"", " "])
