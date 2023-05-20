@@ -4,15 +4,16 @@ from separator import *
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+import time
 
 nltk.download('stopwords')
 nltk.download('punkt')
 
 
 
-def localMax():
+def localMax(path):
     p=2
-    corpus_path = "fil_3"
+    corpus_path = path
     corpus_path = corpus_treatment(corpus_path)
     language_of_file = "english"
     stopwords_detected = detect_stopwords_file(corpus_path, language_of_file)
@@ -48,5 +49,11 @@ def corpus_treatment(corpus_path):
     modify_file_to_single_line(corpus_path, "treated"+corpus_path)
     return "treated"+corpus_path
 
-            
-localMax()
+all_texts_in_one("corpus")
+
+
+beginning = time.time()
+localMax("alltexts.txt" )
+end = time.time()
+
+print(end-beginning)

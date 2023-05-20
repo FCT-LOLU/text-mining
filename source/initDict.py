@@ -21,6 +21,8 @@ def init_dict_multiwords_expression(corpuspath):
                         bysize[ngram]["SCP"] = 0
                         bysize[ngram]["MaxOmegaPlusSCP"] = 0
                         bysize[ngram]["MaxOmegaMinusSCP"] = 0
+                        bysize[ngram]["Dice"]=0
+                        bysize[ngram]["MI"]=0
                     else:
                         #increment the ngram freq value
                         bysize[ngram]["freq"] += 1
@@ -30,6 +32,8 @@ def fill_dict_multiwords_expression():
     for i in range(8,1,-1):
         for ngram, value in ngrams[i].items():
             calculSCP(ngram,value)
+            calculDice(ngram,value)
+            calculMI(ngram,value)
             first_multiword_expression = ngram.split()[0:i-1]
             first_multiword_expression = ' '.join(first_multiword_expression)
             if(ngrams[i-1][first_multiword_expression]["SCP"] == 0):
