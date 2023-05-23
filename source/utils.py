@@ -18,3 +18,11 @@ def all_texts_in_one(dirpath):
                 contenu = fichier.read()
                 exit.write(contenu)
                 exit.write("\n")
+
+def how_many_words_in_file(file_path):
+    with open(file_path, 'r') as f:
+        chaine = f.read()
+        words = chaine.split()
+        print(len(words))
+
+how_many_words_in_file("alltexts.txt")

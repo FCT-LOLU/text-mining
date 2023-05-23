@@ -15,14 +15,11 @@ def add_space_before_and_after_special_characters(file_path, characters_list):
 
 
 def modify_file_to_single_line(input_file_path, output_file_path):
-    # Read the content of the file
     with open(input_file_path, 'r', encoding='utf-8') as input_file:
         content = input_file.read()
 
-    # Remove newline characters
     modified_content = content.replace('\n', ' ')
 
-    # Write the modified content to the output file
     with open(output_file_path, 'w', encoding='utf-8') as output_file:
         output_file.write(modified_content)
 
