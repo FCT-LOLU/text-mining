@@ -1,6 +1,5 @@
 from initDict import *
 from utils import *
-from separator import *
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -10,19 +9,21 @@ import csv
 nltk.download('stopwords')
 nltk.download('punkt')
 
-def localMax(path):
-    p=2
-    corpus_path = path
-    corpus_path = corpus_treatment(corpus_path)
+def localMax(corpus_path):
+    all_texts_in_one(corpus_path)
     language_of_file = "english"
-    stopwords_detected = detect_stopwords_file(corpus_path, language_of_file)
+    corpus_treatment("alltexts.txt")
+    stopwords_detected = detect_stopwords_file("alltexts.txt", language_of_file)
+    print("stopwords_detected done")
     init_dict_multiwords_expression(corpus_path)
+    print("init_dict_multiwords_expression done")
     fill_dict_multiwords_expression()
-    data = ["p", "SCP", "Dice", "inDiceNotSCP", "inSCPNotDice"]
+    print("fill_dict_multiwords_expression done")
+    data = ["p", "SCP", "Dice", "listSCP", "listDice"]
     with open('corpus2.csv', 'w') as f:
         writer = csv.writer(f)
         writer.writerow(data)
-        for p in range(2,8):
+        for p in range(2,6):
             print("p = ",p)
             print("SCP")
             SCP = localMaxSCP(p, stopwords_detected)
@@ -30,15 +31,7 @@ def localMax(path):
             print("Dice")
             Dice = localMaxDice(p, stopwords_detected)
             lenDice = len(Dice)
-            inDiceNotSCP = []
-            for expression in Dice:
-                if expression not in SCP:
-                    inDiceNotSCP.append(expression)
-            inSCPNotDice = []
-            for expression in SCP:
-                if expression not in Dice:
-                    inSCPNotDice.append(expression)
-            data = [p, lenSCP, lenDice, len(inDiceNotSCP), len(inSCPNotDice)]
+            data = [p, lenSCP, lenDice, SCP, Dice]
             writer.writerow(data)
 
 
@@ -85,16 +78,11 @@ def detect_stopwords_file(file_path, language_of_file):
 
     return stopwords_detected
 
-def corpus_treatment(corpus_path):
-    add_space_before_and_after_special_characters(corpus_path, [";", ",", ".", ":", "!", "?", "(", ")", "[", "]", "{", "}", "<", ">", "/", "\\", "|", "_", "+", "=", "*", "&", "^", "%", "$", "#", "@", "!", "`", "~", "'", "\"", " "])
-    modify_file_to_single_line(corpus_path, "treated"+corpus_path)
-    return "treated"+corpus_path
 
-all_texts_in_one("corpus2mw")
 
 
 beginning = time.time()
-localMax("alltexts.txt")
+localMax("corpus2mw")
 end = time.time()
 
 print(end-beginning)

@@ -1,34 +1,36 @@
 from metrics import *
-
+from separator import *
+import os
 
 
 def init_dict_multiwords_expression(corpuspath):
-    #open the file
-    with open(corpuspath, 'r') as corpus:
-        #read the file line by line
-        for line in corpus:
-            #split the line into words
-            words = line.split()
-            #create a list of ngrams and get all the ngrams lenght 2 to 8
-            for i in range(1,9):
-                bysize = {}
-                for j in range(len(words)-i+1):
-                    ngram = ' '.join(words[j:j+i])
-                    #if the ngram is not in the dictioionary, add it
-                    if ngram not in bysize:
-                        bysize[ngram]={}
-                        bysize[ngram]["freq"] = 1
-                        bysize[ngram]["SCP"] = 0
-                        bysize[ngram]["MaxOmegaPlusSCP"] = 0
-                        bysize[ngram]["MaxOmegaMinusSCP"] = 0
-                        bysize[ngram]["Dice"]=0
-                        bysize[ngram]["MaxOmegaPlusDice"] = 0
-                        bysize[ngram]["MaxOmegaMinusDice"] = 0
-                    else:
-                        #increment the ngram freq value
-                        bysize[ngram]["freq"] += 1
-                ngrams[i] = bysize
-    
+    for i in range(1,9):
+        bysize = {}
+        ngrams[i] = bysize
+    for file_name in os.listdir(corpuspath):
+        file_path = os.path.join(corpuspath, file_name)
+        if os.path.isfile(file_path):
+            print(file_path)
+            corpus_treatment(file_path)
+            with open(file_path, 'r') as corpus:
+                for line in corpus:
+                    words = line.split()
+                    for i in range(1,9):
+                        for j in range(len(words)-i+1):
+                            ngram = ' '.join(words[j:j+i])
+                            if ngram not in ngrams[i]:
+                                ngrams[i][ngram]={}
+                                ngrams[i][ngram]["freq"] = 1
+                                ngrams[i][ngram]["SCP"] = 0
+                                ngrams[i][ngram]["MaxOmegaPlusSCP"] = 0
+                                ngrams[i][ngram]["MaxOmegaMinusSCP"] = 0
+                                ngrams[i][ngram]["Dice"]=0
+                                ngrams[i][ngram]["MaxOmegaPlusDice"] = 0
+                                ngrams[i][ngram]["MaxOmegaMinusDice"] = 0
+                            else:
+                                ngrams[i][ngram]["freq"] += 1
+                        
+        
 def fill_dict_multiwords_expression():
     for i in range(8,1,-1):
         print("size of n_grams: ",i)
@@ -56,3 +58,6 @@ def fill_dict_multiwords_expression():
                 ngrams[i][ngram]["MaxOmegaMinusSCP"] = max(ngrams[i-1][first_multiword_expression]["SCP"],ngrams[i-1][second_multiword_expression]["SCP"])
                 ngrams[i][ngram]["MaxOmegaMinusDice"] = max(ngrams[i-1][first_multiword_expression]["Dice"],ngrams[i-1][second_multiword_expression]["Dice"])
 
+def corpus_treatment(file_path):
+    add_space_before_and_after_special_characters(file_path, [";", ",", ".", ":", "!", "?", "(", ")", "[", "]", "{", "}", "<", ">", "/", "\\", "|", "_", "+", "=", "*", "&", "^", "%", "$", "#", "@", "!", "`", "~", "'", "\"", " "])
+    modify_file_to_single_line(file_path, file_path)
