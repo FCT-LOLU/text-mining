@@ -26,3 +26,4 @@ def how_many_words_in_file(file_path):
         print(len(words))
 
 how_many_words_in_file("alltexts.txt")
+
