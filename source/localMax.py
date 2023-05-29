@@ -17,10 +17,11 @@ def localMax(corpus_path):
     print("stopwords_detected done")
     init_dict_multiwords_expression(corpus_path)
     print("init_dict_multiwords_expression done")
-    fill_dict_multiwords_expression()
+    number_words= how_many_words_in_file("alltexts.txt")
+    fill_dict_multiwords_expression(number_words)
     print("fill_dict_multiwords_expression done")
-    data = ["p", "SCP", "Dice", "listSCP", "listDice"]
-    with open('corpus2.csv', 'w') as f:
+    data = ["p", "SCP", "Dice", "MI","listSCP", "listDice","listMI"]
+    with open('corpustest.csv', 'w') as f:
         writer = csv.writer(f)
         writer.writerow(data)
         for p in range(2,6):
@@ -31,7 +32,10 @@ def localMax(corpus_path):
             print("Dice")
             Dice = localMaxDice(p, stopwords_detected)
             lenDice = len(Dice)
-            data = [p, lenSCP, lenDice, SCP, Dice]
+            print("MI")
+            MI= localMaxMI(p,stopwords_detected)
+            lenMI=len(MI)
+            data = [p, lenSCP, lenDice,lenMI, SCP, Dice, MI]
             writer.writerow(data)
 
 
@@ -64,6 +68,20 @@ def localMaxDice(p, stopwords_detected):
                         relevant_ngrams.append(ngram)
     return relevant_ngrams
 
+def localMaxMI(p, stopwords_detected):
+    relevant_ngrams = []
+    for i in range(2,8):
+        for ngram, value in ngrams[i].items():
+            words = ngram.split()
+            if value['freq']>1 and words[0] not in stopwords_detected and words[-1] not in stopwords_detected:
+                if(i==2):
+                    if value['MI']>= value['MaxOmegaPlusMI']:
+                        relevant_ngrams.append(ngram)
+                else:
+                    if value['MI']>= pow(((pow(value['MaxOmegaPlusMI'],p)+pow(value['MaxOmegaMinusMI'],p))/2),(1/p)):
+                        relevant_ngrams.append(ngram)
+    return relevant_ngrams
+
     
 
 def detect_stopwords_file(file_path, language_of_file):
@@ -82,7 +100,8 @@ def detect_stopwords_file(file_path, language_of_file):
 
 
 beginning = time.time()
-localMax("corpus2mw")
+#localMax("corpus2mw")
+localMax("corpustest")
 end = time.time()
 
 print(end-beginning)

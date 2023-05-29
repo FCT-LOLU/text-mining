@@ -134,7 +134,7 @@ records were as follows 0
 janakpur zone of south-eastern 1
 intercultural open university foundation 1
 footballer who currently plays 1
-settlement in the municipality 0
+settlement in the municipality 1
 municipality is now included 1
 fellow of his college 1
 victorian football league vfl 1
@@ -148,3 +148,57 @@ rest of his life 0
 competition at the 2002 1
 first in the series 1
 south and then east 1
+caused by world war 1
+prime minister s office 1
+buccinidae the true whelks 1
+cover of the beatles 1
+long-running british science fiction 1
+fiction television series doctor 1
+nations security council resolution
+jersey city new jersey 1
+ventilation and air conditioning 1
+army as a military 1
+rest of their lives 0
+historic places in 1985 1
+reviews from music critics 1
+located to the north 1
+soviet union and germany 1
+signed a non-aggression pact 1
+pact in august 1939 1
+new year s day 1
+inheritance rights of women 1
+based on the novel 1
+served as the u 0
+parts of the world 1
+officer in the royal 1
+average density of 31 1
+residing in the village 1
+village the population density 0
+makeup of the village 1
+husband present and 32 0
+0 of all households 1
+fourth woman to win 1
+player who currently plays 1
+europe and the united 0
+interview to the bbc 1
+protein and rna synthesis 1
+seed in the midwest 1
+recalled to active duty 1
+north east of england 1
+winter olympics was held 1
+elected for a four-year 1
+1980s and early 1990s 1
+round of the playoffs 1
+phased out its undergraduate 0
+sketch of the project 1
+half of the 13th 1
+lost in the quarterfinals 1
+maría josé martínez sánchez 1
+registered a population growth 1
+cent during the 1991-2001 1
+home games at estádio 1
+stadium has a maximum 0
+
+True Positive : 144
+False Positive : 56
+Precision : TP/(TP+FP) *100 = 72%

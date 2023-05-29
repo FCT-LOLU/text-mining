@@ -1,4 +1,5 @@
 from math import log
+from utils import *
 
 ngrams = {}
 
@@ -37,3 +38,21 @@ def calculDice(ngram,value):
                 deno_Dice +=ngrams[size_word_one_to_i][word_one_to_i]["freq"]+ngrams[size_word_i_plus_1_to_n][word_i_plus_1_to_n]["freq"]
             deno_Dice=deno_Dice*(1/(n-1))
         value["Dice"] = round(num_Dice/deno_Dice,4)
+
+def calculMI(ngram,value,number_word):
+    num_MI=  value["freq"]*number_word
+    words = ngram.split()
+    if(len(words)!=1):
+        if(len(words)==2):
+            deno_MI = ngrams[1][words[0]]["freq"]*ngrams[1][words[1]]["freq"]
+        else:    
+            n=len(words)
+            deno_MI =0
+            for i in range(1,n-1):
+                word_one_to_i = ' '.join(words[0:i])
+                size_word_one_to_i = len(word_one_to_i.split())
+                word_i_plus_1_to_n = ' '.join(words[i+1:n])
+                size_word_i_plus_1_to_n = len(word_i_plus_1_to_n.split())
+                deno_MI +=ngrams[size_word_one_to_i][word_one_to_i]["freq"]*ngrams[size_word_i_plus_1_to_n][word_i_plus_1_to_n]["freq"]
+            deno_MI=deno_MI*(1/(n-1))
+        value["MI"] = round(log(num_MI/deno_MI),4)
