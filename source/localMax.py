@@ -21,7 +21,7 @@ def localMax(corpus_path):
     fill_dict_multiwords_expression(number_words)
     print("fill_dict_multiwords_expression done")
     data = ["p", "SCP", "Dice", "MI","listSCP", "listDice","listMI"]
-    with open('corpustest.csv', 'w') as f:
+    with open('corpus2.csv', 'w') as f:
         writer = csv.writer(f)
         writer.writerow(data)
         for p in range(2,6):
@@ -100,8 +100,7 @@ def detect_stopwords_file(file_path, language_of_file):
 
 
 beginning = time.time()
-#localMax("corpus2mw")
-localMax("corpustest")
+localMax("corpus2mw")
 end = time.time()
 
 print(end-beginning)
