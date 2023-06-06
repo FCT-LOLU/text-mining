@@ -19,20 +19,33 @@ def localMax(corpus_path):
     print("init_dict_multiwords_expression done")
     fill_dict_multiwords_expression()
     print("fill_dict_multiwords_expression done")
-    data = ["p", "SCP", "Dice", "listSCP", "listDice"]
-    with open('corpus2.csv', 'w') as f:
+    data = ["p", "SCP", "listSCP"]
+    with open('corpus2SCP.csv', 'w') as f:
+            writer = csv.writer(f)
+            writer.writerow(data)
+    data = ["p", "Dice", "listDice"]
+    with open('corpus2Dice.csv', 'w') as f:
         writer = csv.writer(f)
         writer.writerow(data)
-        for p in range(2,6):
-            print("p = ",p)
+        f.close()
+    for p in range(2,6):
+        print("p = ",p)
+        with open('corpus2SCP.csv', 'a') as f:
+            writer = csv.writer(f)
             print("SCP")
             SCP = localMaxSCP(p, stopwords_detected)
             lenSCP = len(SCP)
+            data = [p, lenSCP, SCP]
+            writer.writerow(data)
+            f.close()
+        with open('corpus2Dice.csv', 'a') as f:
+            writer = csv.writer(f)
             print("Dice")
             Dice = localMaxDice(p, stopwords_detected)
             lenDice = len(Dice)
-            data = [p, lenSCP, lenDice, SCP, Dice]
+            data = [p, lenDice, Dice]
             writer.writerow(data)
+            f.close()
 
 
 
