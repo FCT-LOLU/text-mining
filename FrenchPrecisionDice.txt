@@ -1,0 +1,205 @@
+victor bérard 1
+milman parry 1
+conséquence directe 1
+transmission orale 1
+équations linéaires 1
+degré 4 0
+nombres réels 1
+applications linéaires 1
+sciences naturelles 1
+résultats obtenus 1
+propriétés géométriques 1
+dimension infinie 1
+emmy noether 1
+algèbre abstraite 1
+lord byron 1
+problème posé 1
+fondements mathématiques 1
+algorithme terminera 0
+répartition statistique 1
+légère perturbation 1
+expliquer pourquoi 0
+énorme puissance 1
+temps raisonnable 1
+combinaisons possibles 1
+atlantic city 1
+deux chambres 1
+pouvoir judiciaire 1
+eduardo duhalde 1
+crise financière 1
+créanciers privés 1
+cristina fernández 1
+mauricio macri 1
+alliance anticommuniste 1
+suffrages exprimés 1
+juin 1922 1
+conflit nord-irlandais 1
+confédération germanique 1
+axe est-ouest 1
+véhicules motorisés 1
+réseau autoroutier 1
+celtes civilisation 1
+germanophones essayent 0
+l’opposition austro-prussienne 1
+l’empire d’autriche 1
+allemagne hitlérienne 1
+armées alliées 1
+nationalité autrichienne 1
+gustav mahler 1
+elfriede jelinek 1
+stefan zweig 1
+arnold schwarzenegger 1
+officiellement reconnu 0
+erwin schrödinger 1
+oskar kokoschka 1
+theodor herzl 1
+titre posthume 1
+2007 postes 1
+1997 postes 1
+1997 utilisateurs 1
+pistes goudronnées 1
+codes internationaux 1
+codes oaci 1
+préfixes oaci 1
+monuments nationaux 1
+coût total 1
+décret impérial 1
+archiduchesse marie-louise 1
+charpente stuc 1
+toiles peintes 1
+soldat inconnu 1
+corniche saillante 1
+attique orné 1
+30 boucliers 1
+situent au-dessus 0
+général marceau 1
+seurre aîné 1
+carlo marochetti 1
+jean-jacques feuchère 1
+john-étienne chaponnière 1
+jean-françois-théodore gechter 1
+grandes batailles 1
+grandes arcades 1
+figures allégoriques 1
+faces intérieures 1
+scène indique 0
+antoine-françois gérard 1
+jean-joseph espercieux 1
+entier postal 0
+gouvernement provisoire 1
+tour eiffel 1
+surface portante 1
+chaux aérienne 1
+bâtiments civils 1
+tassement différentiel 1
+petits côtés 1
+précontrainte additionnelle 1
+gentleman cambrioleur 1
+sympathies anarchistes 1
+andré-françois ruaud 1
+moutons électriques 1
+crédit lyonnais 1
+brigade mondaine 1
+l’usurpation d’identité 1
+dame blonde 1
+cas échéant 0
+désiré baudru 0
+sherlock sholmes 1
+luis perenna 1
+certaine notoriété 0
+quatre secrets 1
+robore fortuna 1
+grande générosité 0
+l’arrestation d’arsène 1
+jean-claude brialy 1
+pastiches lupiniens 1
+thomas narcejac 1
+michel carré 1
+kenji mizoguchi 1
+romain duris 1
+jacques nahum 1
+françois dunoyer 1
+d’animation japonais 1
+logique mathématique 1
+éléments constitutifs 1
+stricto sensu 0
+gengis khan 1
+état tampon 1
+troupes soviétiques 1
+eau potable 1
+avoir évoqué 0
+ancien testament 1
+conquêtes militaires 1
+bordure occidentale 1
+relations étroites 1
+échanges commerciaux 1
+grands moghols 1
+majoritairement musulmans 1
+troisième bataille 1
+dissensions internes 1
+frère cadet 1
+courte durée 1
+tribus ghilzaï 1
+titre d’exemple 1
+l’armée pakistanaise 1
+contrôle notamment grâce aux frères flores 1
+flores magón et avec l aide 1
+aide d une centaine d internationalistes 1
+internationalistes armés membres du syndicat industrial 1
+workers of the world travailleurs industriels 1
+industriels du monde de la majeure 1
+californie notamment des bourgades de tijuana 1
+bourgades de tijuana 100 habitants mexicali 1
+tecate les magonistes incitent le peuple 1
+prendre possession collectivement de la terre 1
+collectivement de la terre à créer 1
+créer des coopératives et à refuser 1
+coopératives et à refuser l établissement 1
+gouvernement durant cinq mois ils vont 0
+cinq mois ils vont faire vivre 0
+vivre la commune de basse-californie expérience 0
+maitron le mouvement anarchiste en france 1
+communauté française sonuma 7 mai 1973 1
+cia world factbook densité de population 1
+factbook densité de population par km 1
+noms des pays et des territoires 1
+pays et des territoires avec drapeau 1
+drapeau superficie km population chiffres relevés 0
+mark line white align center from 0
+cameroun au tchad et au nigeria 1
+ère chrétienne l afrique du nord 1
+comte julien comes julianus ou olbàn 0
+placées sous le commandement de tariq 1
+normalisait pas encore toutes les positions 0
+fois plus massif que l électron 0
+standard de la physique des particules 1
+principe d apos exclusion de pauli 1
+noyau est constitué d un proton 1
+spin analogue à un moment angulaire 1
+énergie de liaison nucléaire par nucléon 1
+toute fin de vie des étoiles 1
+configuration électronique d un gaz rare 1
+réactifs et des produits de réaction 1
+expliquer la stabilité de l atome 1
+amharique s écrit à l aide 1
+retour de l apos u r 0
+soit-il ou les jeux sont faits 1
+importants liés à chacun des atomes 1
+atomes de carbone de la double 1
+liaison l isomère a la stéréochimie 1
+obéit à la règle de markovnikov 1
+règle de markovnikov dans une réaction 1
+markovnikov dans une réaction d addition 1
+alcène en l absence de peroxyde 1
+substitué c est-à-dire le plus hydrogéné 1
+révocation de l édit de nantes 1
+canal de la mer du nord 1
+missiles de croisière et les drones 1
+transport de passagers ou de fret 1
+missions peuvent être effectuées à partir 0
+marqué l histoire de l aéronautique 1
+
+false positives =24
+true posituves = 176
+
+precision = 88%

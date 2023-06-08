@@ -54,7 +54,7 @@ def recall_calcul(words,list):
     return (true_positive/(true_positive+false_positive))*100
 
 print_dictio(metrics([72,74,65.5],"corpus2.csv","RE.txt"))
-print_dictio(metrics([68.5,0,0],"frenchcorpus.csv","FrenchRecall.txt"))
+print_dictio(metrics([68.5,88,80],"frenchcorpus.csv","FrenchRecall.txt"))
 
 
 

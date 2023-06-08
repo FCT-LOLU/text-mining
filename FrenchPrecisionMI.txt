@@ -1,0 +1,205 @@
+crise financière 1
+créanciers privés 1
+leurs créances 1
+services publics 1
+lutter contre 0
+élections générales 1
+cristina fernández 1
+mauricio macri 1
+influence importante 1
+alliance anticommuniste 1
+anticommuniste argentine 0
+cour suprême 1
+7 ans 1
+suffrages exprimés 1
+armée républicaine 1
+nom porté 0
+armes contre 0
+différents groupes 1
+old ira 0
+juin 1922 1
+conflit nord-irlandais 1
+forme longue 1
+état fédéral 1
+europe centrale 1
+langue officielle 1
+apos europe 0
+confédération germanique 1
+axe est-ouest 1
+véhicules motorisés 1
+réseau routier 1
+routes communales 1
+réseau autoroutier 1
+secteur privé 1
+croissance rapide 1
+développement rapide 1
+celtes civilisation 1
+qu’une partie 0
+puissance européenne 1
+germanophones essayent 0
+l’opposition austro-prussienne 1
+guerre austro-prussienne 1
+tourne vers 0
+l’empire d’autriche 1
+empire carolingien 1
+mondiale après 0
+autriche allemande 1
+article 2 1
+grande guerre 1
+allemagne hitlérienne 1
+armées alliées 1
+bloc soviétique 1
+six ans 1
+der bellen 0
+population active 1
+moyennes entreprises 1
+accroissement naturel 1
+taux moyen 1
+nationalité autrichienne 1
+2005 après 0
+2012 rang 0
+gustav mahler 1
+pays étrangers 1
+stefan zweig 1
+arnold schwarzenegger 1
+celui parlé 0
+langue maternelle 1
+2001 73 0
+73 6 0
+officiellement reconnu 0
+jours fériés 1
+presse écrite 1
+renommée internationale 1
+orchestre philharmonique 1
+erwin schrödinger 1
+oskar kokoschka 1
+theodor herzl 1
+équipe nationale 1
+donné naissance 0
+titre posthume 1
+téléphones portables 1
+2007 postes 1
+1997 postes 1
+1997 utilisateurs 1
+2000 routes 1
+pistes goudronnées 1
+codes internationaux 1
+3166-1 liste 0
+apos otan 0
+aut selon 0
+codes oaci 0
+préfixes oaci 0
+apos immatriculation 1
+monuments nationaux 1
+producteurs de coton d afrique 1
+2010 et neuvième au palmarès 0
+neuvième au palmarès des producteurs 1
+africains de thé au début 1
+quitté le pays depuis 1994 1
+afrique du sud en 1910 1
+coupe du monde de cricket 1
+indice de développement humain idh 1
+blancs auraient quitté le pays 0
+alpha-2 za selon la liste 0
+éditions du cénacle de france 1
+collectif les carnets de takemusu 1
+long de la ligne liquidus 0
+juin 1982 fils du roi 1
+1982 fils du roi abdelaziz 1
+janvier 2015 fils du roi 1
+united states patent and trademark 1
+village semi nomade en arabie 1
+conseil de coopération du golfe 1
+national de transformation vision 2030 1
+conseil de l apos europe 1
+adopter le christianisme comme religion 1
+association internationale des maires francophones 1
+plaine de l apos ararat 1
+neuf premiers mois de l’année 1
+6 de la population totale 1
+membre de l organisation internationale 1
+afrique de l apos ouest 1
+afrique des nations de football 1
+millions de visiteurs chaque année 1
+dizaines de milliers de personnes 1
+président de la république française 1
+limitrophe de la province espagnole 1
+taux de fécondité très faible 1
+administrations et magasins sont fermés 1
+juillet fête de la paroisse 1
+spécifique de la langue catalane 1
+institutions et de la géographie 1
+émissions de gaz à effet 0
+gaz à effet de serre 1
+histoire de l égypte pharaonique 1
+coiffé de la couronne blanche 1
+coiffé de la couronne rouge 1
+présenté pour la première fois 1
+cache partagé de niveau 3 0
+northbridge et un circuit graphique 1
+maison d enfance de steve 1
+dollars pour violation de brevets 0
+connexes histoire d apos apple 1
+soleil et de la lune 1
+étudie les substances chimiques trouvées 1
+roman de l apos académie 1
+cabinet de conseil mercer 1
+vols de vélos scooters 1
+baptisé « project 1012 1
+vente libre de drogues 1
+situé dans l arrondissement 1
+amsterdam figure au mondial 0
+canal de la mer 1
+magasins comme de bijenkorf 0
+nord de la place 1
+baie de l ij 0
+centre de la ville 1
+suite de la réformation 1
+église de la ville 1
+proximité de la gare 1
+centrale d apos amsterdam 1
+subit une importante rénovation 1
+ville d amsterdam accueille 0
+canaux de la ville 1
+aéronef dans l atmosphère 1
+pratique d une activité 0
+avion et l hélicoptère 1
+croisière et les drones 1
+légers que l air 0
+passagers ou de fret 1
+lutte contre l incendie 1
+utilisé par les forces 1
+passagers en cabines comportant 0
+circulation ils sont généralement 0
+utilisés sur les lignes 1
+courrier à faible densité 1
+hélicoptère est particulièrement adapté 1
+équipés d un moteur 1
+missions peuvent être effectuées 1
+adapté à cette mission 1
+style de la jeunesse 1
+art nouveau 1
+créer un art national 1
+entrée rue de provence 1
+hankar et gustave serrurier-bovy 1
+image de la femme 1
+art nouveau est surtout 0
+hôpital de sant pau 1
+crypte de la colonie 1
+palais de la sécession 1
+ciamberlani de paul hankar 1
+l’art de la joaillerie 1
+charles l apos eplattenier 0
+museum of art file 1
+serres royales de laeken 1
+archives d apos architecture 1
+société de linguistique de paris 1
+esquisse d une grammaire comparée 1
+grammaire comparée de l arménien 1
+quantité de données à traiter 1
+l’art de la joaillerie 1
+
+false positives = 40
+true positives = 160
+
+Precision = 80%
