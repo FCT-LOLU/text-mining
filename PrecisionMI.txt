@@ -1,0 +1,205 @@
+theological studies 1
+atlanta falcons 1
+detroit lions 1
+defensive tackle 1
+also killed 0
+open mic 1
+get something 0
+long list 0
+family cerambycidae 1
+mano murthy 1
+six songs 0
+stars rajkumar 1
+lead roles 0
+way along 0
+central board 1
+especially relevant 0
+time went 0
+culture continued 1
+turned professional 0
+native country 1
+number 27 1
+push-up press-up 0
+performed free-standing 1
+celibate priest 1
+april 1987 1
+march 1989 1
+huge fan 1
+historic events 1
+go wrong 0
+good fortune 1
+make sure 0
+hated family 1
+turn violent 1
+huge changes 0
+first volume 0
+july 1968 1
+single volume 0
+theodore roosevelt 1
+seattle seahawks 1
+emergency landing 1
+class c1a 0
+never made 0
+first bands 0
+june 1971 1
+age 57 1
+october 1872 1
+wife survived 1
+divided among 0
+edinburgh university 1
+mechanics institute 1
+german football 1
+panchayat town 1
+vellore district 1
+several days 0
+first u 0
+season lasted 0
+similar lines 1
+brownlow medal 1
+changi brownlow 1
+peter chitty 1
+chase purchased 0
+phoenix arizona 1
+miami florida 1
+play written 0
+true tragedy 1
+physical appearance 1
+creative differences 1
+books deal 1
+twenty carloads 1
+decide whether 0
+hollywood california 1
+band achieved 0
+biggest hits 1
+billboard hot 1
+easy listening 0
+reached 2 0
+1 hit 0
+white shorts 1
+black socks 1
+away kit 1
+club announced 0
+thornton ross 1
+41 000 0
+inner journey 0
+contributed significantly 0
+1999 publication 1
+1990 fifa 1
+could provide 0
+difficult task 1
+ottoman empire 1
+french engineer 1
+middle triassic 1
+following decade 1
+later incorporated 0
+staff officer 1
+joint u 0
+hand-to-hand combat 1
+april 1943 1
+ethan allen 1
+football matches 1
+sea lord 1
+english clubs 1
+capacitor body 1
+mm pitch 0
+pelagic species 1
+active politics 1
+main stream 0
+till date 1
+women based 1
+francophone world 1
+career writing 0
+mortally wounded 0
+direction sang 0
+acoustic version 1
+week 2 0
+positive comments 1
+cole called 1
+total eclipse 1
+times making 0
+matt cardle 1
+gender roles 1
+northern part 1
+mount doom 1
+uk charts 1
+ronald reagan 1
+eastern europe 1
+novel written 1
+pearl street 1
+historical novel 1
+city among 0
+significantly improved 0
+two communities 0
+national health 1
+medical officer 1
+medical practice 1
+15 african 1
+40 asian 1
+forming units of a single 0
+units of a single species 1
+frequency of the carrier oscillator 1
+movement for rights and freedoms 1
+game in which the player 1
+bronze medal in the men 1
+beginning of world war ii 1
+maps and the internet commission 1
+melbourne in the victorian football 1
+evening performances at the mariinsky 1
+championships in athletics in daegu 1
+retired american professional basketball player 1
+tamil nadu he was elected 0
+drama film written and directed 1
+used as the theme song 1
+council was up for election 1
+found in the democratic republic 1
+capacity of which females made 0
+dolby digital 2 0 stereo 0
+2013 he is a member 0
+yoon chong v chief assessor 1
+survey from surveys and u 0
+surveys and u s navy 0
+u s navy air photos 0
+named by the advisory committee 1
+antarctic names for lieutenant commander 1
+heading out of the city 0
+appeared in over 50 films 1
+belt asteroid with an orbital 1
+products that are not part 0
+numbering is a greek manuscript 1
+palaeographically it has been assigned 1
+scuola normale superiore di pisa 1
+19th and early 20th centuries 1
+regular place in the team 1
+municipality lies at an altitude 1
+metres and covers an area 1
+km² it has a population 0
+ko in the first round 1
+family known by the common 1
+comune municipality in the province 1
+path formula 34 we need 0
+enzyme catalyses the following chemical 1
+journal of the american college 1
+american college of emergency physicians 1
+94 and the average family 1
+progressed to the second round 0
+latter half of the 19th 1
+song by german recording artist 1
+german recording artist sarah connor 1
+kick gave buffalo the ball 0
+mcglew mclean tayfield and waite 1
+r b hip-hop singles tracks 0
+ip innings pitched w wins 0
+pitched w wins l losses 0
+wins l losses era earned 1
+losses era earned run average 1
+plans for a new town 1
+tenors and basses from group 1
+bachelor of laws and bachelor 1
+declared a national historic landmark 1
+department of alternative and puppet 1
+2010 was an american professional 1
+
+false positives = 69
+true positives = 131
+
+Precision = 65,5

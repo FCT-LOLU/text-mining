@@ -1,0 +1,204 @@
+relative lack 1
+loch ewe 1
+douglas macarthur 1
+foramen secundum 0
+transesophageal echocardiography 1
+public auction 1
+national oceanic 1
+master mason 1
+five-year contract 1
+karabiner 98k 0
+sub judice 1
+boat ramp 1
+pit toilets 1
+picnic area 1
+fundamental importance 0
+jean-éric vergne 1
+frans hals 1
+planetary boundaries 1
+imminent danger 1
+bani zeid 1
+spratly islands 1
+wilkes land 1
+douglas mawson 1
+carson daly 0
+many commuters 1
+rated recognized 0
+lexical entries 1
+desperate need 0
+four-barrel carburetor 1
+amg petronas 0
+specific requirements 0
+propaganda model 1
+rational curve 1
+multi-use stadium 1
+willamette valley 1
+autzen stadium 1
+immediate vicinity 1
+attract tourists 1
+civic oath 1
+official emblem 1
+croatian war 1
+megaforce records 1
+kuala lumpur 1
+jawaharlal nehru 0
+assert hypotheses 1
+penn arshad 0
+interior parts 1
+stop fallin 0
+lengthy period 1
+hostess brands 1
+sacramento surge 0
+brutally raped 1
+50 male 1
+buena vista 0
+baccalaureate ib 0
+70th birthday 1
+jayne warner 1
+armed struggle 1
+wider range 1
+ralph bakshi 1
+skynet 5a 0
+pai mārire 0
+lithuanian government 1
+court convened 1
+orion nebula 1
+tiit kikas 0
+prolonged period 1
+biz markie 1
+van cliburn 1
+lobb bootmaker 0
+heber springs 0
+barrio azteca 1
+juárez cartel 1
+collect funds 1
+ciudad juárez 0
+majdal shams 1
+bmw adac 0
+advisory boards 1
+lory meagher 1
+qualifying draw 1
+body whorl 1
+outer lip 0
+campus nerds 1
+southbound traffic 1
+expression levels 1
+easternmost point 1
+athens greece 1
+dr jekyll 1
+boris karloff 1
+merchant adventurers 1
+raise funds 1
+frank zappa 1
+avant-garde artists 1
+judges scores 1
+over-sized fairings 0
+fairy godmothers 1
+zhengguo canal 1
+kung fu 1
+wah sin 0
+limited amount 1
+tong- suey 0
+particularly bloody 0
+nwwu workers 0
+duggar family 1
+annual salary 1
+pneumatic souls 1
+takings analysis 1
+countywide ahead 0
+self-taught artist 1
+danvers massachusetts 1
+wire strands 0
+hong kong-based 1
+artificial turf 1
+classical learning 1
+macon georgia 0
+bahá í 0
+inhabited localities 1
+nizhny novgorod 0
+andy warhol 1
+gregorian calendar 1
+profound effect 1
+horned frog 1
+southern portion 1
+bcs game 0
+kathleen ferrier 0
+exact nature 0
+rumyantsev obelisk 0
+namu doryeong 0
+mt baekdu 0
+dmitri shostakovich 0
+sweep mines 1
+100m backstroke 1
+montgomery alabama 1
+bret hart 1
+brain child 1
+paleomagnetic poles 1
+dionne warwick 0
+duel monsters 0
+middle child 1
+amicus curiae 1
+waltzing matilda 1
+nathan kris 1
+drab khaki 1
+indian mutiny 0
+german bohemia 1
+keynote speaker 1
+energy inefficient 1
+1962 63 0
+ambitious plan 0
+seaside resorts 1
+taipei taiwan 0
+swine flu 1
+lunar maps 1
+2015 pan american games in toronto 1
+bureau the cdp covers an area 1
+players received wildcards into the singles 1
+wildcards into the singles main draw 1
+struck from the naval vessel register 1
+finished bottom of the third division 1
+advisory committee on antarctic names us-acan 1
+united states fish and wildlife service 1
+elected to the house of commons 1
+species of frog in the hylidae 1
+sergio ferrara and peter van nieuwenhuizen 0
+interior ministry and the interior ministry 1
+member of the legislative select standing 1
+number of divorces per 1 000 1 
+ine the municipality has a population 0
+species of moth of the tortricidae 0
+cent or more of its strength 0
+deaths of swiss citizens ignoring immigration 1
+swiss citizens ignoring immigration and emigration 1
+ignoring immigration and emigration the population 1
+immigrated from another country to switzerland 1
+country to switzerland the total swiss 1
+switzerland the total swiss population change 1
+total swiss population change in 2008 1
+change in 2008 from all sources 1
+accredited by the higher learning commission 1
+program is accredited by the state 1
+accredited by the state of illinois 1
+33 and the average family size 1
+40 and the average family size 1
+lived during the reign of king 1
+homme of queens of the stone 1
+6 were from 45 to 64 0
+older the median age was 40 1
+per square mile 413 6 km²  1
+8 of all households were made 1
+charter of the duke of albany 1
+men s varsity team is known 0
+promoted to admiral of the fleet 1
+made up of individuals and 5 0
+concerned citizens for lyle s future 1
+director s cut of the film 1
+member of the wisconsin state assembly 1
+create a state public safety commission 1
+police to act as peace officers 1
+silva was sacked by the government 1
+2001 to the 2011 electoral map 1
+
+false positives = 52
+true positives = 148
+Precision = 74%

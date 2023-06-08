@@ -23,13 +23,13 @@ def metrics(precision, corpus_path,file_re):
                         f_metric_dico[row[0]]={}
                         print(row[2])
                         recall_dico[row[0]]['SCP']=recall_calcul(words,row[4])
-                        precision_dico[row[0]]['SCP']= precision
+                        precision_dico[row[0]]['SCP']= precision[0]
                         f_metric_dico[row[0]]['SCP']= ((2*precision_dico[row[0]]['SCP']*recall_dico[row[0]]['SCP'])/(precision_dico[row[0]]['SCP']+recall_dico[row[0]]['SCP']))
                         recall_dico[row[0]]['Dice']=recall_calcul(words,row[5])
-                        precision_dico[row[0]]['Dice']= precision
+                        precision_dico[row[0]]['Dice']= precision[1]
                         f_metric_dico[row[0]]['Dice']= ((2*precision_dico[row[0]]['Dice']*recall_dico[row[0]]['Dice'])/(precision_dico[row[0]]['Dice']+recall_dico[row[0]]['Dice']))
                         recall_dico[row[0]]['MI']=recall_calcul(words,row[6])
-                        precision_dico[row[0]]['MI']= precision
+                        precision_dico[row[0]]['MI']= precision[2]
                         f_metric_dico[row[0]]['MI']= ((2*precision_dico[row[0]]['MI']*recall_dico[row[0]]['MI'])/(precision_dico[row[0]]['MI']+recall_dico[row[0]]['MI']))
                         
                         
@@ -53,8 +53,8 @@ def recall_calcul(words,list):
     
     return (true_positive/(true_positive+false_positive))*100
 
-print_dictio(metrics(72,"corpus2.csv","RE.txt"))
-print_dictio(metrics(68.5,"frenchcorpus.csv","FrenchRecall.txt"))
+print_dictio(metrics([72,74,65.5],"corpus2.csv","RE.txt"))
+print_dictio(metrics([68.5,0,0],"frenchcorpus.csv","FrenchRecall.txt"))
 
 
 
