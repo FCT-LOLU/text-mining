@@ -1,0 +1,206 @@
+études secondaires 1
+assiste également 0
+hautes études 1
+grammaire comparée 1
+france où 0
+langues indo-européennes 1
+langues orientales 1
+émile benveniste 1
+aurélien sauvageot 1
+a influencé 0
+trois mois 1
+apos école 0
+arménien classique 1
+victor bérard 1
+milman parry 1
+an avant 0
+cette époque 1
+apos iliade 1
+conséquence directe 1
+transmission orale 1
+dirige vers 0
+aucune loi 1
+pays pendant 0
+plusieurs années 0
+l’ethnie pachtoune 1
+trente années 1
+mène alors 0
+mohammad daoud 1
+daoud khan 1
+hafizullah amin 1
+parti démocratique 1
+l’union soviétique 1
+babrak karmal 1
+régime communiste 1
+dernière période 0
+17 juillet 1
+premier ministre 1
+tronçons d autoroute 1
+ores et déjà 0
+école nationale supérieure 1
+culture du palais 1
+réalisé par merzak 1
+actes du colloque 1
+free documentation license 1
+foiled twisted pairs 0
+chaînes de montagnes 1
+minerai de fer 1
+minières et pétrolières 1
+emergency response team 1
+return retour chariot 0
+découvre le hip-hop 1
+amarnien se caractérise 0
+abondent les plantes 0
+plantes les fleurs 0
+temple de karnak 1
+mettre en scène 0
+égyptien du caire 1
+temple d aton 1
+enceinte du temple 1
+notion d infini 1
+divinités du panthéon 1
+identique à celui 0
+hypothèse selon laquelle 0
+coffre à canopes 0
+personnages du roman 1
+chine à taïwan 1
+centres d appel 1
+binary coded decimal 1
+digital data storage 1
+electronic data interchange 1
+noms de domaine 0
+frequency division multiplexing 1
+schéma d annuaire 0
+ssl secure socket 0
+teneur en carbone 1
+confère à l’alliage 0
+propriétés de l’acier 1
+galvanisation à chaud 1
+contact du charbon 1
+charbon de bois 1
+77 de carbone 1
+alliés au chrome 1
+résistance à l’adoucissement 1
+température de surchauffe 1
+réorganisation des atomes 1
+structure de l’acier 1
+teneur en manganèse 1
+coefficient de dilatation 1
+réception du produit 0
+l’acheteur la réception 0
+produit est effectuée 0
+stevie ray vaughan 1
+truckload of lovin 0
+fuel 2000 records 1
+construction d édifices 0
+technique de construction 1
+existe des maisons 0
+traités d architecture 1
+droit d auteur 1
+égide du moniteur 0
+encyclopédie de diderot 1
+kropotkine et élisée 1
+besoins de chacun 0
+voltairine de cleyre 0
+ferdinand domela nieuwenhuis 1
+l’église ce n’est 0
+anarchisme de droite 1
+enragés pendant 0
+communistes en 1871 1
+varlin gustave lefrançais 1
+ledroit jules montels 1
+montels françois-charles ostyn 1
+ostyn jean-louis pindy 1
+pindy en 1873 1
+mexicain d obédience 1
+obédience anarchiste planifie 0
+planifie l invasion 0
+invasion du territoire 1
+territoire de basse-californie 1
+opérationnelle du plm 1
+socialiste de basse-californie 1
+centaine d internationalistes 1
+world travailleurs industriels 1
+bourgades de tijuana 1
+cubique à faces centrées 1
+fonction de la température 1
+majoritaire on parle alors 0
+tenue mécanique et résistance 1
+religion d apos état 0
+conforme à la norme 0
+printemps et en automne 1
+ben abdelaziz al saoud 1
+fils du roi abdelaziz 1
+13 juin 1982 fils 0
+23 janvier 2015 fils 0
+joue un rôle déterminant 0
+création d un fonds 0
+secteur de la finance 1
+semi nomade en arabie 1
+référencesvoir aussi articles connexes 0
+royaume d apos arménie 1
+connexe — en raison 0
+bassin de l araxe 1
+2014 0 1 taux 0
+janvier et septembre 2006 1
+navigables nombre d aéroports 0
+long de la côte 0
+dispositions d ordre linguistique 1
+équipe d apos angola 1
+coupe d apos afrique 1
+dessous des cartes articles 0
+officielle est le catalan 0
+participer à la conférence 1
+limitrophe du département français 1
+port d apos envalira 0
+impôt sur les bénéfices 1
+fête de la paroisse 1
+capitale saint john apos 1
+nord-est de l île 1
+bolivarienne pour les amériques 1
+pharaon est le berger 0
+berger de son peuple 1
+guidant et le protégeant 0
+couronnes blanche et rouge 1
+représentation de la couronne 1
+coiffé de la couronne 1
+cache partagé de niveau 0
+utilisées par plusieurs cœurs 0
+escadrille de reconnaissance aérienne 1
+objectif de faire entrer 1
+1943 à new york 1
+circonstances de la mort 1
+remontés à la surface 1
+circonstances de sa mort 1
+place en cinquième position 1
+vol de nuit 1931 1
+lettre à un otage 1
+pensée de l auteur 1
+poste aérienne valeur faciale 0
+œuvre de madeleine tézenas 1
+téléfilm réalisé en 1994 1
+1994 pour france 3 1
+enrico retrace sa vie 1
+2009 au format dvd 1
+bibliothèque de la pléiade 1
+taux de transfert maximal 1
+format de compression audio 1
+thoutmôsis s était placé 0
+placé sous sa protection 1
+épithètes était rayonnement 1
+aton avait encouragé 1
+progressivement d abord puis 0
+abord puis plus brutalement 0
+révolution culturelle et religieuse 1
+imposer une tendance née 1
+dieux sous ce roi 1
+exclusif du disque solaire 1
+progiciel de gestion intégré 1
+capitale de l algérie 1
+divinités du panthéon égyptien 1
+
+
+false positives = 63
+true positives = 137
+
+precision = 68,5%

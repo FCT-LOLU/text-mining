@@ -5,13 +5,13 @@ from utils import print_dictio
 
 csv.field_size_limit(sys.maxsize)
 
-def metrics():
+def metrics(precision, corpus_path,file_re):
     metrics_dico={}
     add_space_before_and_after_special_characters("RE.txt",[";", ",", ".", ":", "!", "?", "(", ")", "[", "]", "{", "}", "<", ">", "/", "\\", "|", "_", "+", "=", "*", "&", "^", "%", "$", "#", "@", "!", "`", "~", "'", "\"", " "])
-    with open("RE.txt", 'r') as fichier:
+    with open(file_re, 'r') as fichier:
         contenu = fichier.read()
         words = contenu.split('\n')
-        with open("corpus2.csv", 'r') as file:
+        with open(corpus_path, 'r') as file:
                 recall_dico ={}
                 precision_dico={}
                 f_metric_dico={}
@@ -22,12 +22,16 @@ def metrics():
                         precision_dico[row[0]]={}
                         f_metric_dico[row[0]]={}
                         print(row[2])
-                        recall_dico[row[0]]['SCP']=recall_calcul(words,row[3])
-                        precision_dico[row[0]]['SCP']= 72
+                        recall_dico[row[0]]['SCP']=recall_calcul(words,row[4])
+                        precision_dico[row[0]]['SCP']= precision
                         f_metric_dico[row[0]]['SCP']= ((2*precision_dico[row[0]]['SCP']*recall_dico[row[0]]['SCP'])/(precision_dico[row[0]]['SCP']+recall_dico[row[0]]['SCP']))
-                        recall_dico[row[0]]['Dice']=recall_calcul(words,row[4])
-                        precision_dico[row[0]]['Dice']= 72
+                        recall_dico[row[0]]['Dice']=recall_calcul(words,row[5])
+                        precision_dico[row[0]]['Dice']= precision
                         f_metric_dico[row[0]]['Dice']= ((2*precision_dico[row[0]]['Dice']*recall_dico[row[0]]['Dice'])/(precision_dico[row[0]]['Dice']+recall_dico[row[0]]['Dice']))
+                        recall_dico[row[0]]['MI']=recall_calcul(words,row[6])
+                        precision_dico[row[0]]['MI']= precision
+                        f_metric_dico[row[0]]['MI']= ((2*precision_dico[row[0]]['MI']*recall_dico[row[0]]['MI'])/(precision_dico[row[0]]['MI']+recall_dico[row[0]]['MI']))
+                        
                         
                 metrics_dico['Recall']= recall_dico
                 metrics_dico['Precision']= precision_dico
@@ -49,5 +53,8 @@ def recall_calcul(words,list):
     
     return (true_positive/(true_positive+false_positive))*100
 
-print_dictio(metrics())
+print_dictio(metrics(72,"corpus2.csv","RE.txt"))
+print_dictio(metrics(68.5,"frenchcorpus.csv","FrenchRecall.txt"))
+
+
 
