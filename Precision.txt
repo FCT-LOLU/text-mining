@@ -1,0 +1,204 @@
+muslim education 1
+commonly known   0
+central board    1
+state board      1
+especially relevant 0
+generally accepted 0
+time went 0
+culture continued 0
+december 1972 1
+south africa 1
+turned professional 0
+native country  0
+summer olympics 1
+atlanta georgia 1
+may 1993 1
+number 27 1
+2 featured 0
+push-up press-up 0
+performed free-standing 1
+often placed 0
+celibate priest 1
+april 1987 1
+theological seminary 1
+november 1988 1
+march 1989 1
+huge fan 1 
+gold medal 1
+000 copies 0
+historic events 1
+prolific writer 1
+high quality 0
+early life 1 
+go wrong 0
+nebraska united states 1
+scottsbluff and gering 1
+pakistan nuclear regulatory 1
+worked as a teacher 0
+killed in an automobile 1
+late 1990s he moved 0
+moved to new york 0
+end of the day 1
+stated in an interview 0
+cerambycidae it was described 0
+half of the twentieth 0
+olympics in atlanta georgia 1
+history of the philippines 1
+published in the uk 1
+signed by the seahawks 1
+one of the first 0
+nemili is a panchayat 0
+panchayat town in vellore 1
+indian state of tamil 1
+born in new york 1
+career as an actress 1
+came to an end 0
+york city on 3 0
+ph d in theology 1
+td pass to wr 0
+refer to in 2002 0
+1st special service force 1
+mostly for football matches 1
+19th and early 20th 1
+murder on the orient 1
+go on to lose 0
+scheduled to be played 0
+bishop of the catholic 1
+member of the national 0
+play an important role 0
+list of the top 0
+put up for auction 1
+arrived at new york 1
+mother s second marriage 0
+remainder of the game 1
+one of the best 0
+making him the club 0
+team of the century 1
+side of the lake 1
+scored his first goal 1
+game of the regular 0
+soundtrack for the film 1
+episodes of the series 1
+potter and the prisoner 1
+crowned by outgoing titleholder 1
+dynasties and ten kingdoms 1
+land to the west 1
+king of the romans 1
+state of the art 1
+located on the former 0
+schools in the district 1
+buffy the vampire slayer 1
+collegiate athletic association ncaa 1
+register of historic places 1
+become a full secondary 0
+navy list on 10 0
+returned to his home 1
+member of the royal 1
+first time oregon state 1
+years in a row 0
+located in the u 0
+owned by henry boot 1
+establishment of the ottoman 1
+involved in the development 0
+retired from the army 1
+enough to be able 0
+selected for the football 1
+death of a member 1
+position on the billboard 1
+looked very much like 0
+graphs that assert hypotheses 1
+end of the 19th 1
+beginning of the 20th 1
+moscow and st petersburg 1
+house is a historic 0
+rest of the season 1
+primarily used for baseball 1
+star in the constellation 1
+tour of the musical 1
+women s 5000 metres 1
+passerine birds their flight 0
+dark with a metallic 1
+tour of south africa 1
+move to the next 0
+president of the national 1
+four of the five 1
+36 on the billboard 1
+2006 census its population 1
+working as an assistant 1
+city of new york 1
+win an olympic medal 1
+st george s chapel 1
+located at the north 1
+prior to this competition 0
+records were as follows 0
+janakpur zone of south-eastern 1
+intercultural open university foundation 1
+footballer who currently plays 1
+settlement in the municipality 1
+municipality is now included 1
+fellow of his college 1
+victorian football league vfl 1
+quarter of 2009 citigroup 1
+sit on the throne 0
+helsinki was a finnish 1
+competed in the 1952 1
+british academy of film 1
+property of the experimental 0
+rest of his life 0
+competition at the 2002 1
+first in the series 1
+south and then east 1
+caused by world war 1
+prime minister s office 1
+buccinidae the true whelks 1
+cover of the beatles 1
+long-running british science fiction 1
+fiction television series doctor 1
+nations security council resolution
+jersey city new jersey 1
+ventilation and air conditioning 1
+army as a military 1
+rest of their lives 0
+historic places in 1985 1
+reviews from music critics 1
+located to the north 1
+soviet union and germany 1
+signed a non-aggression pact 1
+pact in august 1939 1
+new year s day 1
+inheritance rights of women 1
+based on the novel 1
+served as the u 0
+parts of the world 1
+officer in the royal 1
+average density of 31 1
+residing in the village 1
+village the population density 0
+makeup of the village 1
+husband present and 32 0
+0 of all households 1
+fourth woman to win 1
+player who currently plays 1
+europe and the united 0
+interview to the bbc 1
+protein and rna synthesis 1
+seed in the midwest 1
+recalled to active duty 1
+north east of england 1
+winter olympics was held 1
+elected for a four-year 1
+1980s and early 1990s 1
+round of the playoffs 1
+phased out its undergraduate 0
+sketch of the project 1
+half of the 13th 1
+lost in the quarterfinals 1
+maría josé martínez sánchez 1
+registered a population growth 1
+cent during the 1991-2001 1
+home games at estádio 1
+stadium has a maximum 0
+
+True Positive : 144
+False Positive : 56
+Precision : TP/(TP+FP) *100 = 72%

@@ -1,4 +1,4 @@
-from initDict import *
+from tfIdf import *
 from utils import *
 import nltk
 from nltk.corpus import stopwords
@@ -17,51 +17,51 @@ def localMax(corpus_path):
     print("stopwords_detected done")
     init_dict_multiwords_expression(corpus_path)
     print("init_dict_multiwords_expression done")
-    fill_dict_multiwords_expression()
+    number_words= how_many_words_in_file("alltexts.txt")
+    fill_dict_multiwords_expression(number_words)
     print("fill_dict_multiwords_expression done")
-    data = ["p", "SCP", "listSCP"]
-    with open('corpus2SCP.csv', 'w') as f:
-            writer = csv.writer(f)
-            writer.writerow(data)
-    data = ["p", "Dice", "listDice"]
-    with open('corpus2Dice.csv', 'w') as f:
+    data = ["p", "SCP", "Dice", "MI","listSCP", "listDice","listMI"]
+    with open('corpus2.csv', 'w') as f:
         writer = csv.writer(f)
         writer.writerow(data)
-        f.close()
-    for p in range(2,6):
-        print("p = ",p)
-        with open('corpus2SCP.csv', 'a') as f:
-            writer = csv.writer(f)
+        for p in range(2,6):
+            print("p = ",p)
             print("SCP")
-            SCP = localMaxSCP(p, stopwords_detected)
-            lenSCP = len(SCP)
-            data = [p, lenSCP, SCP]
-            writer.writerow(data)
-            f.close()
-        with open('corpus2Dice.csv', 'a') as f:
-            writer = csv.writer(f)
+            localMaxSCP(p, stopwords_detected)
+            lenSCP = len(relevant_ngrams_scp)
             print("Dice")
             Dice = localMaxDice(p, stopwords_detected)
             lenDice = len(Dice)
-            data = [p, lenDice, Dice]
+            print("MI")
+            MI= localMaxMI(p,stopwords_detected)
+            lenMI=len(MI)
+            data = [p, lenSCP, lenDice,lenMI, relevant_ngrams_scp, Dice, MI]
             writer.writerow(data)
-            f.close()
+        f.close()
+    calcul15MostSpecificRelevantExpressionsWithSCPOfADocumentInACorpus(corpus_path)
+    
 
 
 
 def localMaxSCP(p, stopwords_detected):
-    relevant_ngrams = []
     for i in range(2,8):
         for ngram, value in ngrams[i].items():
             words = ngram.split()
             if value['freq']>1 and words[0] not in stopwords_detected and words[-1] not in stopwords_detected:
                 if(i==2):
                     if value['SCP']>= value['MaxOmegaPlusSCP']:
-                        relevant_ngrams.append(ngram)
+                        relevant_ngrams_scp.append(ngram)
+                        for doc, value in ngrams[i][ngram]["freqByDoc"].items():
+                            if doc not in relevant_ngrams_scp_by_doc:
+                                relevant_ngrams_scp_by_doc[doc] = []
+                            relevant_ngrams_scp_by_doc[doc].append(ngram)
                 else:
                     if value['SCP']>= pow(((pow(value['MaxOmegaPlusSCP'],p)+pow(value['MaxOmegaMinusSCP'],p))/2),(1/p)):
-                        relevant_ngrams.append(ngram)
-    return relevant_ngrams
+                        relevant_ngrams_scp.append(ngram)
+                        for doc, value in ngrams[i][ngram]["freqByDoc"].items():
+                            if doc not in relevant_ngrams_scp_by_doc:
+                                relevant_ngrams_scp_by_doc[doc] = []
+                            relevant_ngrams_scp_by_doc[doc].append(ngram)
 
 def localMaxDice(p, stopwords_detected):
     relevant_ngrams = []
@@ -74,6 +74,20 @@ def localMaxDice(p, stopwords_detected):
                         relevant_ngrams.append(ngram)
                 else:
                     if value['Dice']>= pow(((pow(value['MaxOmegaPlusDice'],p)+pow(value['MaxOmegaMinusDice'],p))/2),(1/p)):
+                        relevant_ngrams.append(ngram)
+    return relevant_ngrams
+
+def localMaxMI(p, stopwords_detected):
+    relevant_ngrams = []
+    for i in range(2,8):
+        for ngram, value in ngrams[i].items():
+            words = ngram.split()
+            if value['freq']>1 and words[0] not in stopwords_detected and words[-1] not in stopwords_detected:
+                if(i==2):
+                    if value['MI']>= value['MaxOmegaPlusMI']:
+                        relevant_ngrams.append(ngram)
+                else:
+                    if value['MI']>= pow(((pow(value['MaxOmegaPlusMI'],p)+pow(value['MaxOmegaMinusMI'],p))/2),(1/p)):
                         relevant_ngrams.append(ngram)
     return relevant_ngrams
 

@@ -24,5 +24,7 @@ def how_many_words_in_file(file_path):
         chaine = f.read()
         words = chaine.split()
         print(len(words))
+        return len(words)
 
 how_many_words_in_file("alltexts.txt")
+
