@@ -24,7 +24,7 @@ def metrics(precision, corpus_path,file_re):
                         precision_dico[row[0]]={}
                         f_metric_dico[row[0]]={}
                         CI_dico[row[0]]={}
-                        #print(row[2])
+                        print(row[1])
 
                         CI_dico[row[0]]['SCP']={}
                         recall_dico[row[0]]['SCP']=recall_calcul(words,row[4])
