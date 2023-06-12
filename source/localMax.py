@@ -109,7 +109,6 @@ def detect_stopwords_file(file_path, language_of_file):
 
 
 beginning = time.time()
-localMax("corpus2mw")
+localMax("corpus2mw") # you can change here "corpus2mw" by "frenchCorpus" to run the algorithm on a fren corpus
 end = time.time()
-
 print(end-beginning)
